@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Wein ecommerce</title>
+</head>
+<body>
+    <section class="login-form">
+            <form action="">
+                <div id="close-login" class="fas fa-times"></div>
+                <a href="" class="logo-form"><span>Wein</span>viñedo</a>
+                <input type="email" name="email" placeholder="Email" id="email" class="box">
+                <input type="password" name="password" placeholder="Contraseña" id="password" class="box">
+                <div class="flex">
+                    <input type="checkbox" name="remember-me" id="remember-me">
+                    <label for="remember-me">Recuerdame</label>
+                    <a href="#">¿Olvido su contraseña?</a>
+                </div>
+                <input type="submit" value="login now" class="login-btn">
+                <p class="account">¿No tiene una cuenta? <a href="#">registrarse</a></p>
+            </form>
+    </section>
+    <header>
+        <nav>
+            <a href="" class="logo"><span>Wein</span>viñedo</a>
+            <div class="menu">
+                <a href="#inicio">Inicio</a>
+                <a href="#nosotros">Nosotros</a>
+                <a href="#products">Productos</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+            <div class="menu-icons">
+                <i class="fa-solid fa-user" id="login-btn"></i>
+                <i class="fa-solid fa-heart" id="fav-icon"></i>
+                <i class="fa-solid fa-bag-shopping" id="cart-icon"></i>
+            </div>
+            <div class="fa-solid fa-bars toggler" id="menu-icon"></div>
+        </nav>
+    </header>
+    <main>
+        <section class="fav">
+            <div class="head-cart">
+                <h3>Favoritos</h3>
+                <i class="fa-solid fa-xmark close-fav"></i>
+            </div>
+            <div class="fav-content">
+                <!-- <div class="fav-item">
+                    <div class="fav-img">
+                        <img src="./img/p1.jpg" alt="">
+                    </div>
+                    <div class="fav-info">
+                        <p>2018 Limited Release Le Rosé</p>
+                        <div class="fav-precio">
+                            $<span>2000</span>
+                        </div>
+                        <div class="cantidad">
+                            <i class="fa-solid fa-plus"></i>
+                            <span class="cantidad-fav">
+                                1
+                            </span>
+                            <i class="fa-solid fa-minus"></i>
+                        </div>
+                    </div>
+                    <span class="fav-add">Agregar al carrito</span>
+                </div> -->
+                <div class="fav-footer">
+                </div>
+            </div>
+        </section>
+        <section class="cart-view">
+            <div class="head-cart">
+                <h3>Carrito de compra</h3>
+                <i class="fa-solid fa-xmark  close-cart"></i>
+            </div>
+            <div class="cart-v-content" id="cart-index">
+                <!-- <div class="cart-v-item">
+                    <div class="cart-v-img">
+                        <img src="../img/p1.jpg" alt="">
+                    </div>
+                    <div class="cart-v-info">
+                        <p>2018 Limited Release Le Rosé</p>
+                        <div class="cantidad">
+                            <i class="fa-solid fa-plus"></i>
+                            <span>
+                                1
+                            </span>
+                            <i class="fa-solid fa-minus"></i>
+                        </div>
+                        <span>remove</span>
+                    </div>
+                    <div class="item-precio">
+                        $<span>2000</span>
+                    </div>
+                </div>
+                <div class="cart-v-item">
+                    <div class="cart-v-img">
+                        <img src="../img/p1.jpg" alt="">
+                    </div>
+                    <div class="cart-v-info">
+                        <p>2018 Limited Release Le Rosé</p>
+                        <div class="cantidad">
+                            <i class="fa-solid fa-plus"></i>
+                            <span>
+                                1
+                            </span>
+                            <i class="fa-solid fa-minus"></i>
+                        </div>
+                        <span>remove</span>
+                    </div>
+                    <div class="item-precio">
+                        $<span>2000</span>
+                    </div>
+                </div> -->
+            </div>
+            <div class="cart-v-footer">
+                <!-- <div class="cart-v-sub">
+                    <p>Subtotal:</p>
+                    <p>$<span>4000</span></p>
+                </div>
+                <div class="cart-v-btns">
+                    <a href="#">ver carrito</a>
+                    <a href="#">finalizar compra</a>
+                </div> -->
+            </div>
+        </section>
+        <section class="home" id="inicio">
+            <h1>Descubra nuestros vinos</h1>
+            <p>Explore nuestra amplia seleccion de vinos</p>
+            <a href="#">Ver mas</a>
+        </section>
+        <section class="nosotros" id="nosotros">
+            <span>Cultivadores apasionados</span>
+            <h2>Calidad premium</h2>
+            <div class="nos-line"></div>
+            <div class="nos-container">
+                <div class="nos-img">
+                    <img src="./img/nos.jpg" alt="">
+                </div>
+                <div class="nos-content">
+                    <div class="nos-info">
+                        <div class="nos-item">
+                            <i class="fa-solid fa-leaf"></i>
+                            <div class="nos-des">
+                                <span>100% Orgánico</span>
+                                <p>Rroducto hecho a base de uvas cultivadas orgánicamente y certificadas como tal, no han sido utilizados productos químicos en el proceso de cultivo y vinificación, además de tener un manejo eco amigable del agua y los recursos naturales.</p>
+                            </div>
+                        </div>
+                        <div class="nos-item">
+                            <i class="fa-solid fa-clipboard-check"></i>
+                            <div class="nos-des">
+                                <span>Fórmula secreta</span>
+                                <p>Un buen vino ofrece todo lo que el varietal o estilo debe brindar. Si bien puede proporcionar un gran equilibrio y placer de beber.</p>
+                            </div>
+                        </div>
+                        <div class="nos-item">
+                            <i class="fa-solid fa-wine-glass"></i>
+                            <div class="nos-des">
+                                <span>Mezcle y pruebe</span>
+                                <p>Los vinos generalmente se mezclan para crear un gran perfil de sabor a partir de diferentes barricas, parcelas de viñedos o variedades de uva.</p>
+                            </div>
+                        </div>
+                        <div class="nos-item">
+                            <i class="fa-solid fa-wine-bottle"></i>
+                            <div class="nos-des">
+                                <span>Estabilización</span>
+                                <p>La estabilización de los vinos es un proceso importante en cualquier bodega. El objetivo es evitar la presencia de precipitados en las botellas cuando llegan al consumidor.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nos-contact">
+                        <p>Únete a nuestra familia de amantes del vino y sé el primero en probarlo.</p>
+                        <a href="#">unete ahora</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="principal" id="products">
+            <h2>Nuestros Vinos</h2>
+            <p>En la bodega creemos en la mínima intervención y nuestros vinos se elaboran de la forma más natural con métodos tradicionales pero con el apoyo de modernos equipos.</p>
+            <a href="#prods"><i class="fa-solid fa-angle-down"></i></a>
+        </section>
+        <section class="productos" id="prods">
+            <h3>Lanzamientos actuales</h3>
+            <div class="visual">
+                <div class="visual-icons">
+                    <i class="fa fa-th"></i>
+                    <i class="fa-solid fa-list"></i>
+                </div>
+                <div class="orden">
+                    <span>Ordenar</span>
+                    <select>
+                        <option>Nombre, A - Z</option>
+                        <option>Nombre, Z - A</option>
+                        <option>Precio, bajo - alto</option>
+                        <option>Precio, alto - bajo</option>
+                      </select>
+                </div>
+            </div>
+            <div class="prod-content" id="productos">
+                <!-- <div class="producto">
+                    <div class="prod-icons">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </div>
+                    <div class="prod-img">
+                        <img src="../img/p1.jpg" alt="">
+                    </div>
+                    <span>2018 Limited Release Le Rosé</span>
+                    <span class="precio">$<span>2000</span></span>
+                </div>-->
+            </div>
+        </section>
+        <section class="contacto" id="contacto">
+            <span>Envíenos un correo electrónico utilizando el siguiente formulario si tiene alguna pregunta, consulta o sugerencia.</span>
+            <h2>Contacto</h2>
+            <div class="nos-line"></div>
+            <div class="contacto-content">
+                <form>
+                    <div class="row">
+                            <input type="text" placeholder="Nombre" name="nombre" id="nombre">
+                            <input type="email" placeholder="Email" name="correo" id="correo">
+                    </div>
+                    <div class="row">
+                            <input type="text" placeholder="Asunto" name="asunto" id="asunto">
+                            <input type="text" placeholder="Teléfono" name="telefono" id="telefono">
+                    </div>
+                    <textarea rows="5" placeholder="Mensaje" name="comentario" id="comentario" type="text"></textarea>
+                    <button type="submit" id="btn">enviar mensaje</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div>
+                <a href="" class="logo"><span>Wein</span>viñedo</a> 
+            </div>
+            <div class="news">
+                <span>Newsletter</span>
+                <p>Suscríbete a nuestra lista de correo</p>
+                <input type="email" placeholder="Email">
+                <a href="#">Suscribirse</a>
+            </div>
+            <div class="visita">
+                <span>Visitanos</span>
+                <p>Del Carmen 502, Cañuelas</p>
+                <p>54 4710 9927</p>
+                <p>contacto@wein.com.ar</p>
+                <div class="social">
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>

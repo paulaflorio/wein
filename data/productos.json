@@ -1,0 +1,58 @@
+{
+    "productos" : [
+        {
+            "id" : 0,
+            "nombre" : "2018 Limited Release Le Rosé",
+            "precio" : 2000,
+            "imgsrc" : "../img/p1.jpg"
+        },
+        {
+            "id" : 1,
+            "nombre" : "2017 Duckhorn Vineyards Napa Valley",
+            "precio" : 1900,
+            "imgsrc" : "../img/p2.jpg"
+        },
+        {
+            "id" : 2,
+            "nombre" : "2019 Vineyards Napa Valley Chardonnay",
+            "precio" : 3600,
+            "imgsrc" : "../img/p3.jpg"
+        },
+        {
+            "id" : 3,
+            "nombre" : "2014 Duckhorn Vineyards Napa Valley",
+            "precio" : 3000,
+            "imgsrc" : "../img/p4.jpg"
+        },
+        {
+            "id" : 4,
+            "nombre" : "2016 Vineyards The Discussion Red Wine",
+            "precio" : 3400,
+            "imgsrc" : "../img/p5.jpg"
+        },
+        {
+            "id" : 5,
+            "nombre" : "2019 Vineyards Napa Valley Chardonnay",
+            "precio" : 6000,
+            "imgsrc" : "../img/p6.jpg"
+        },
+        {
+            "id" : 6,
+            "nombre" : "2013 Newton Napa Valley",
+            "precio" : 1800,
+            "imgsrc" : "../img/p7.jpg"
+        },
+        {
+            "id" : 7,
+            "nombre" : "2020 Limited Release Le Rosé",
+            "precio" : 2500,
+            "imgsrc" : "../img/p8.jpg"
+        },
+        {
+            "id" : 8,
+            "nombre" : "2019 Red Wine Cut Bank Estate",
+            "precio" : 3000,
+            "imgsrc" : "../img/p9.png"
+        }
+    ]
+}
